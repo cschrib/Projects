@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function display1(val) {
+	var i;
+	for(i=0;i<val;i++)
+	{
+		console.log("HI BOB");
+	}
+}
+   
+   display1(10);
+   
+function display2(val,str) {
+	var i;
+	for(i=0;i<val;i++)
+	{
+		console.log(str);
+	}
+}
+   
+   display2(10, 'This is awesome');
+   
+function table() {
+	console.log("1 2 3 4 5\n");
+	console.log("6 7 8 9 10\n");
+	console.log("11 12 13 14 15");
+}
+   
+   table();
+   
+function rating(val) {
+	if(val >=0 && val <=2.5)
+		console.log("Not Great");
+	else if(val >2.5 && val <=4)
+		console.log("Alright");
+	else if(val >4 && val <=5)
+		console.log("Dope");
+	else if(val ==0)
+	{
+		console.log("Terrible");
+	}
+}
+   
+   rating(4.7);
+  
+</script>
+<body>
+</body>
+</head>
+</html>
